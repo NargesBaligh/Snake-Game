@@ -1,5 +1,6 @@
 # Snake-Game
 A simple snake terminal game in  cpp
+![image](https://github.com/user-attachments/assets/34b4d29c-f230-48d1-8946-0613851fb33a)
 
 # Snake Game
 
