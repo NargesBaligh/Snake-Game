@@ -15,23 +15,7 @@ Getting Started
 Requirements
 Windows OS
 gcc compiler (MinGW recommended)
-Installation
-Clone the repository:
 
-sh
-Copy code
-git clone https://github.com/yourusername/snake_game.git
-cd snake_game
-Compile the code:
-
-sh
-Copy code
-gcc -o snake_game snake_game.c -std=c99
-Run the game:
-
-sh
-Copy code
-./snake_game
 How to Play
 Use W, A, S, D keys to control the direction of the snake.
 Eat the fruit (F) to grow and earn points.
