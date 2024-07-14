@@ -2,34 +2,27 @@
 A simple snake terminal game in  c
 ![image](https://github.com/user-attachments/assets/34b4d29c-f230-48d1-8946-0613851fb33a)
 
-# Snake Game
+Snake Game in C
+Overview
+This project presents a classic Snake game implemented in C for the terminal. It runs on Windows using standard libraries for input handling and screen manipulation.
 
-A simple Snake game implemented in C for the terminal. This project is designed to run on Windows using the `conio.h` library for handling input and `windows.h` for sleep functionality.
+Features
+Traditional gameplay with a snake that grows as it eats fruit.
+Simple controls: Use W, A, S, D to navigate the snake.
+Score tracking and game-over detection.
+Utilizes basic console graphics for rendering.
+Getting Started
+Requirements
+Windows OS
+gcc compiler (MinGW recommended)
+Installation
+Clone the repository:
 
-## Features
-
-- Classic snake gameplay
-- Simple controls: W, A, S, D for movement, X to quit
-- Randomly placed fruit to eat and grow the snake
-- Score tracking
-
-## Requirements
-
-- gcc compiler (MinGW recommended for Windows)
-
-## Getting Started
-
-### Prerequisites
-
-Ensure you have MinGW installed on your system. If not, you can download and install it from [MinGW](http://www.mingw.org/).
-
-### Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/snake_game.git
-   cd snake_game
-Compile the code using gcc:
+sh
+Copy code
+git clone https://github.com/yourusername/snake_game.git
+cd snake_game
+Compile the code:
 
 sh
 Copy code
@@ -39,59 +32,7 @@ Run the game:
 sh
 Copy code
 ./snake_game
-Controls
-W: Move up
-A: Move left
-S: Move down
-D: Move right
-X: Quit game
-Code Overview
-The main components of the game include:
-
-Setup(): Initializes the game state.
-Draw(): Renders the game state to the terminal.
-Input(): Handles user input.
-Logic(): Contains the game logic, including movement and collision detection.
-EndGame(): Displays the final score and waits for user input before exiting.
-Setup
-Initializes the game variables and sets the initial position of the snake and fruit.
-
-Draw
-Clears the screen and redraws the game board, including the snake and the fruit. Displays the current score.
-
-Input
-Reads user input without blocking the game loop, allowing real-time control of the snake.
-
-Logic
-Updates the game state based on the current direction of the snake. Handles movement, collision detection, and fruit consumption.
-
-EndGame
-Displays the "Game Over" message and final score, and waits for the user to press a key before exiting the game.
-
-Example
-When you run the game, you will see the game board with the snake and a randomly placed fruit. Use the W, A, S, D keys to move the snake and try to eat the fruit. The game ends if the snake collides with itself or the game boundaries.
-
-plaintext
-Copy code
-######################
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-# F                  #
-#                    #
-#                    #
-#          O         #
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-######################
-Score: 0
+How to Play
+Use W, A, S, D keys to control the direction of the snake.
+Eat the fruit (F) to grow and earn points.
+Avoid colliding with the walls or the snake's own body to continue playing.
