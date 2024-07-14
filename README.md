@@ -15,7 +15,7 @@ A simple Snake game implemented in C++ for the terminal. This project is designe
 
 ## Requirements
 
-- g++ compiler (MinGW recommended for Windows)
+- gcc compiler (MinGW recommended for Windows)
 
 ## Getting Started
 
