@@ -26,7 +26,7 @@ Ensure you have MinGW installed on your system. If not, you can download and ins
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/snake_game.git](https://github.com/NargesBaligh/Snake-Game.git
+   git clone https://github.com/yourusername/snake_game.git
    cd snake_game
 Compile the code using g++:
 
