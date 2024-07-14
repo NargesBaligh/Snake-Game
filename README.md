@@ -67,30 +67,3 @@ Updates the game state based on the current direction of the snake. Handles move
 EndGame
 Displays the "Game Over" message and final score, and waits for the user to press a key before exiting the game.
 
-Example
-When you run the game, you will see the game board with the snake and a randomly placed fruit. Use the W, A, S, D keys to move the snake and try to eat the fruit. The game ends if the snake collides with itself or the game boundaries.
-
-plaintext
-Copy code
-######################
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-# F                  #
-#                    #
-#                    #
-#          O         #
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-#                    #
-######################
-Score: 0
