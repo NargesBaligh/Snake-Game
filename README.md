@@ -1,10 +1,10 @@
 # Snake-Game
-A simple snake terminal game in  cpp
+A simple snake terminal game in  c
 ![image](https://github.com/user-attachments/assets/34b4d29c-f230-48d1-8946-0613851fb33a)
 
 # Snake Game
 
-A simple Snake game implemented in C++ for the terminal. This project is designed to run on Windows using the `conio.h` library for handling input and `windows.h` for sleep functionality.
+A simple Snake game implemented in C for the terminal. This project is designed to run on Windows using the `conio.h` library for handling input and `windows.h` for sleep functionality.
 
 ## Features
 
@@ -29,11 +29,11 @@ Ensure you have MinGW installed on your system. If not, you can download and ins
    ```sh
    git clone https://github.com/yourusername/snake_game.git
    cd snake_game
-Compile the code using g++:
+Compile the code using gcc:
 
 sh
 Copy code
-g++ -o snake_game snake_game.cpp -std=c++11
+gcc -o snake_game snake_game.c -std=c99
 Run the game:
 
 sh
@@ -68,3 +68,30 @@ Updates the game state based on the current direction of the snake. Handles move
 EndGame
 Displays the "Game Over" message and final score, and waits for the user to press a key before exiting the game.
 
+Example
+When you run the game, you will see the game board with the snake and a randomly placed fruit. Use the W, A, S, D keys to move the snake and try to eat the fruit. The game ends if the snake collides with itself or the game boundaries.
+
+plaintext
+Copy code
+######################
+#                    #
+#                    #
+#                    #
+#                    #
+#                    #
+#                    #
+# F                  #
+#                    #
+#                    #
+#          O         #
+#                    #
+#                    #
+#                    #
+#                    #
+#                    #
+#                    #
+#                    #
+#                    #
+#                    #
+######################
+Score: 0
